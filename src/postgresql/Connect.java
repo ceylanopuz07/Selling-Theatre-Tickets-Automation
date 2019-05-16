@@ -3,6 +3,9 @@ package postgresql;
 import java.sql.*;
 
 public class Connect {
+	
+	
+	//Used the Singleton design pattern here. 
 
 	private static Connect instance = null;
 
@@ -27,8 +30,8 @@ public class Connect {
 
 	public Connection connect() throws SQLException {
 
-		return DriverManager.getConnection(url, user, password);// veri tabanına ait host ve veritabanı adını ve veritabanına ulaşacak
-		// olan kullanıcı adı ve şifresini tanımlıyoruz
+		return DriverManager.getConnection(url, user, password);// veri tabanÃ½na ait host ve veritabanÃ½ adÃ½nÃ½ ve veritabanÃ½na ulaÃ¾acak
+		// olan kullanÃ½cÃ½ adÃ½ ve Ã¾ifresini tanÃ½mlÃ½yoruz
 	}
 
 	public void getMusteri() {

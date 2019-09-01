@@ -1,4 +1,4 @@
 # Selling-Theatre-Tickets-Automation
 
-The aim of this project used object-oriented design patterns by Java Swing and PostgreSQL database technology.
+The aim of this project is using object-oriented design patterns in PostgreSQL database technology and by Java Swing.
 
